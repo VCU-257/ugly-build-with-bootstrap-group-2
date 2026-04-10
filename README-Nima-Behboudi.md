@@ -11,7 +11,7 @@
 
 ## 2. Bootstrap Implementation
 *I followed the project plan and used only **Bootstrap 5 components** with no custom CSS.*
-**Components Used:**
+* **Components Used:**
 1. Bootstrap Navbar (for top navigation and mobile bottom navigation)
 2. Bootstrap Grid System (for container, row, col)
 3. Bootstrap Buttons
@@ -28,7 +28,10 @@
 
 ## 4. AI / LLM Usage
 
-* **What I asked the AI:** *How to build a bottom navigation bar using only Bootstrap classes? , How to improve spacing and layout for the main action buttons?* *How can I build a Bootstrap 5 home page using navbar?*
+* **What I asked the AI:** 
+*How to build a bottom navigation bar using only Bootstrap classes?*
+*How to improve spacing and layout for the main action buttons?* 
+*How can I build a Bootstrap 5 home page using navbar?*
 * **How it helped & What I learned:** *Chatgpt helped by suggesting correct Bootstrap class usage. I made sure to review navbar, container, row and col and their affect layout and responsiveness! This helped me better understand the way Bootstrap components work together and to use them for both mobile and desktop views.*
 
 ## 5. Live Site Link
