@@ -16,7 +16,7 @@
 3. Bootstrap Buttons
 4. Bootstrap Cards
 5. Bootstrap Utility Classes (for spacing, responsiveness)
-*Note: I used only Bootstrap 5 components with no custom CSS.*
+* **Note:** I used only Bootstrap 5 components with no custom CSS.
 
 ## 3. Technical Challenges & Solutions
 [cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
