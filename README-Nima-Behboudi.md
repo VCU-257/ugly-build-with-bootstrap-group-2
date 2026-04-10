@@ -1,7 +1,7 @@
 # Student Name: Nima Behboudi
 
 ## 1. My Assigned Work
-*I was responsible for designing and implementing the Home Page of the application.*
+*I was tasked for implementing Home Page of the credit score application.*
 - Main landing layout
 - Top navigation bar (desktop)
 - Bottom navigation bar (mobile)
@@ -11,12 +11,12 @@
 
 ## 2. Bootstrap Implementation
 *I followed the project plan and used only **Bootstrap 5 components** with no custom CSS.*
-* **Components Used:**
-- Bootstrap Navbar -> top navigation and mobile bottom navigation
-- Bootstrap Grid System -> container, row, col
-- Bootstrap Buttons
-- Bootstrap Cards
-- Bootstrap Utility Classes -> spacing, responsiveness
+**Components Used:**
+1. Bootstrap Navbar (for top navigation and mobile bottom navigation)
+2. Bootstrap Grid System (for container, row, col)
+3. Bootstrap Buttons
+4. Bootstrap Cards
+5. Bootstrap Utility Classes (for spacing, responsiveness)
 
 ## 3. Technical Challenges & Solutions
 [cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
@@ -24,7 +24,7 @@
 *Creating a **mobile bottom navigation bar** was one of my challenges, since Bootstrap doesn't include a native tab bar component.*
 *I reused Bootstrap `navbar`, Added `fixed-bottom` to position it at the bottom and used `d-lg-none` to show it only on mobile, in order to solve it.*
 *My other challenge was displaying a **credit score dial**, which isn't on Bootstrap.*
-* So I used a Bootstrap card and used `display-2` class to simulate a large score display to fix this.*
+*So I used a Bootstrap card and used `display-2` class to simulate a large score display to fix this.*
 
 ## 4. AI / LLM Usage
 
