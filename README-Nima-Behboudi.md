@@ -26,13 +26,12 @@
 *So I used a Bootstrap card and used `display-2` class to simulate a large score display to fix this.*
 
 ## 4. AI / LLM Usage
-
+* Yes, but mainly for guidance!
 * **What I asked the AI:** 
 *How to build a bottom navigation bar using only Bootstrap classes?*
-*How to improve spacing and layout for the main action buttons?* 
-*How can I build a Bootstrap 5 home page using navbar?*
-* **How it helped & What I learned:** *Chatgpt helped by suggesting correct Bootstrap class usage. I made sure to review navbar, container, row and col and their affect layout and responsiveness! This helped me better understand the way Bootstrap components work together and to use them for both mobile and desktop views.*
+*How to do spacing and layout for the main action buttons?* 
+* **How it helped & What I learned:** *Chatgpt helped by suggesting Bootstrap class usage. I made sure to review navbar, container, row and col and their affect layout and responsiveness. This helped me better understand the way Bootstrap components work together and to for me to use them for both mobile and desktop views.*
 
 ## 5. Live Site Link
 
-* **Live URL:** [https://vcu-257.github.io/ugly-build-with-bootstrap-group-2/]
+* **Live URL:** [insert link]
