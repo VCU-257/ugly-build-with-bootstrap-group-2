@@ -10,8 +10,8 @@
     <title>Finances</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0">
-        <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0" style="box-shadow: 0px 2px 4px rgba(0,0,0,0.1);">
+        <div class="container-fluid" style="border-bottom: var(--tertiary) 1px solid; padding-bottom: 1vh;">
             <a class="navbar-brand" href="#">CreditBrand</a>
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="navbar-nav ms-auto">
@@ -25,7 +25,7 @@
             </div>
         </div>
         <nav class="navbar-expand-lg navbar-light bg-none d-none d-lg-block ">
-            <div class="container-fluid">
+            <div class="container-fluid" style="padding-top: 0.75vh; height: 3vh;">
                 <a class=" bread " href="index.html">
                     Home 
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -39,7 +39,7 @@
     <div class="container main row">
         <div class="container row">
             <div class="fico">
-            FICO Score
+            <a href="fico-score.html" class="text-decoration-none" style="color: var(--text)">FICO Score</a>
             </div>
         </div>
         <div class="container row">
@@ -115,6 +115,7 @@
 :root {
     --background: #ffffff;
     --secondary: #C5E8F1;
+    --tertiary: #D9D9D9;
     --text: #1E1E1E;
 }
 
@@ -170,6 +171,8 @@ body {
     border-radius: 20px;
     height: 12vh;
     width: 10vh;
+    align-content: center;
+    text-align: center;
 }
 .fico{
     border: #1E1E1E 1px solid;
@@ -180,6 +183,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 2vh;
 }
 .container{
     align-items: center;
