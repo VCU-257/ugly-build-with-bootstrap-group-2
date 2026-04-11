@@ -10,7 +10,31 @@
     <title>Finances</title>
 </head>
 <body>
-    <div class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CreditBrand</a>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Plans</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Finances</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Learning</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Customer Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar-expand-lg navbar-light bg-none d-none d-lg-block ">
+            <div class="container-fluid">
+                <a class=" bread " href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg> Home
+                </a>
+            </div>
+        </nav>
+    </nav>
+    <div class="container main">
         <div class="container row">
             <div class="fico">
             FICO Score
@@ -39,6 +63,18 @@
         </div>
         </div>
     </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-lg-none">
+        <div class="container-fluid breadcrumb-mb">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+            <h5 class="page">Finance</h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+            </svg>
+        </div>
+    </nav>
     <nav class="navbar fixed-bottom navbar-light bg-light d-lg-none">
         <div class="container-fluid justify-content-around text-center">
 
@@ -124,12 +160,14 @@ body {
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
+    height: 12vh;
+    width: 10vh;
 }
 .fico{
     border: #1E1E1E 1px solid;
     border-radius: 100px;
-    height: 100px;
-    width: 100px;
+    height: 25vh;
+    width: 25vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,6 +176,22 @@ body {
 .container{
     align-items: center;
     justify-content: center;
+}
+.main{
+    margin-top: 15vh;
+}
+.breadcrumb-mb{
+    padding-top: 5px;
+}
+.bread{
+    color: var(--text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 </style>
