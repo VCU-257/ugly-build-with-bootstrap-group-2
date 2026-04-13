@@ -12,7 +12,7 @@
 - Bootstrap Container
 - Bootstrap Grids
 
--Summary: I stuck to the plan from table 1 and added the navigation including breadcrumbs.
+-Summary: I stuck to the plan from table 1 and added the navigation including breadcrumbs
 
 ## 3. Technical Challenges & Solutions
 [cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
