@@ -10,7 +10,7 @@
     <title>Finances</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0" style="box-shadow: 0px 2px 4px rgba(0,0,0,0.1);">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0" >
         <div class="container-fluid" style="border-bottom: var(--tertiary) 1px solid; padding-bottom: 1vh;">
             <a class="navbar-brand" href="#">CreditBrand</a>
             <div class="collapse navbar-collapse" id="nav">
@@ -24,7 +24,7 @@
                 </ul>
             </div>
         </div>
-        <nav class="navbar-expand-lg navbar-light bg-none d-none d-lg-block ">
+        <nav class="navbar-expand-lg d-none d-lg-block ">
             <div class="container-fluid" style="padding-top: 0.75vh; height: 3vh;">
                 <a class=" bread " href="index.html">
                     Home 
@@ -39,7 +39,7 @@
     <div class="container main row">
         <div class="container row">
             <div class="fico">
-            <a href="fico-score.html" class="text-decoration-none" style="color: var(--text)">FICO Score</a>
+            <a href="fico-score.html">FICO Score</a>
             </div>
         </div>
         <div class="container row">
@@ -55,15 +55,15 @@
         </div>
         </div>
     </div>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-lg-none" >
+    <nav class="navbar fixed-top navbar-expand-lg d-lg-none" >
         <div class="container-fluid breadcrumb-mb">
-            <a href="index.html" style="color: var(--text); margin-top: -1vh;">
+            <a href="index.html" style="margin-top: -1vh;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
                 </svg>
             </a>
             <h5 class="page">Finance</h5>
-            <a href="#" style="color: var(--text); margin-top: -1vh;">
+            <a href="#" style="margin-top: -1vh;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
                     <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
                     <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
@@ -71,7 +71,7 @@
             </a>
         </div>
     </nav>
-    <nav class="navbar fixed-bottom navbar-light bg-light d-lg-none">
+    <nav class="navbar fixed-bottom d-lg-none">
         <div class="container-fluid justify-content-around text-center">
 
         <a class="navbar-text text-center" href="index.html">
@@ -140,11 +140,6 @@
 .top-navbar .nav-item {
     display: inline-block;
     margin: 0 15px;
-}
-.active{
-    border-radius: 20px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-    background: var(--secondary);
 }
 body {
   display: flex;
