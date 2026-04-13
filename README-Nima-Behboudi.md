@@ -34,4 +34,4 @@
 
 ## 5. Live Site Link
 
-* **Live URL:** [insert link]
+* **Live URL:** [https://vcu-257.github.io/ugly-build-with-bootstrap-group-2/index.html]
