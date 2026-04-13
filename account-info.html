@@ -8,15 +8,44 @@
     </head>
 
     <body>
-        <div class="container p-4">
-            <form>
-                <div>
-                    <div class="d-flex align-items-center mb-2">
-                        <div class="text-muted small">Account</div>
-                    </div>
-                    <h4 class="fw-bold">Enter Your Financial Information</h4>
+        <nav class="navbar absolute-top navbar-expand-lg navbar-light bg-light d-lg-none" >
+            <div class="container-fluid breadcrumb-mb">
+                <a href="index.html" style="color: var(--text);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+                </a>
+                <h5 class="page m-auto">Edit Account Information</h5>
+            </div>
+        </nav>
+        <nav class="navbar absolute-top navbar-expand-lg navbar-light bg-light d-none d-lg-block padding-0" style="box-shadow: 0px 2px 4px rgba(0,0,0,0.1);">
+            <div class="container-fluid" style="border-bottom: var(--tertiary) 1px solid; padding-bottom: 1vh;">
+                <a class="navbar-brand" href="#">CreditBrand</a>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Plans</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Account</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Finances.html">Finances</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Learning</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Customer Service</a></li>
+                    </ul>
                 </div>
-
+            </div>
+            <nav class="navbar-expand-lg navbar-light bg-none d-none d-lg-block ">
+                <div class="container-fluid" style="padding-top: 0.75vh; height: 3vh;">
+                    <a class="bread" href="index.html">
+                        Home 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg>
+                        Edit Account Information
+                    </a>
+                </div>
+            </nav>
+        </nav>
+        <div class="container main p-4">
+            <form>
                 <div class="mb-4">
                     <h3 class="fw-bold">Credit Accounts</h3>
 
@@ -145,5 +174,37 @@
                 </div>
             </form>
         </div>
+        <nav class="navbar fixed-bottom navbar-light bg-light d-lg-none">
+            <div class="container-fluid justify-content-around text-center">
+
+            <a class="navbar-text text-center" href="index.html">
+                <small>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                    </svg>
+                </small>
+            </a>
+
+            <a class="navbar-text text-center" href="Finances.html">
+                
+                <small>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                    <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </small>
+            </a>
+
+            <a class="navbar-text text-center" href="#">
+                
+                <small>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
+                    <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
+                    <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
+                    </svg>
+                </small>
+            </a>
+
+            </div>
+        </nav>
     </body>
 </html>
