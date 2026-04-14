@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character settings + mobile scaling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons for back arrow + settings gear -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <title>FICO Score</title>
+</head>
+
+<body>
+
+<!-- ================= TOP MOBILE NAVBAR ================= -->
+<section id="nav-bar">
+    <nav class="bg-light shadow-sm py-3">
+        <!-- 
+            container-fluid = full width across phone screen
+            d-flex = use flexbox
+            align-items-center = vertically center everything
+        -->
+        <div class="container-fluid d-flex align-items-center">
+
+            <!-- LEFT SIDE: Back arrow button -->
+            <!-- w-25 = 25% width -->
+            <div class="w-25">
+                <!-- history.back() goes to previous browser page -->
+                <a href="javascript:history.back()" class="text-dark fs-4">
+                    <i class="bi bi-arrow-left"></i>
+                </a>
+            </div>
+
+            <!-- CENTER: title -->
+            <!-- w-50 = middle 50% so title stays centered -->
+            <div class="w-50 text-center">
+                <h5 class="m-0">FICO Score</h5>
+            </div>
+
+            <!-- RIGHT SIDE: settings icon -->
+            <!-- text-end pushes icon all the way right -->
+            <div class="w-25 text-end">
+                <a href="settings.html" class="text-dark fs-4">
+                    <i class="bi bi-gear"></i>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+</section>
+
+<!--  main mobile content  -->
+<div class="container mt-4">
+    <div class="row">
+
+        <!-- 
+            col-12 = one full-width column
+            d-flex flex-column = stack items vertically
+            gap-4 = space between cards
+        -->
+        <div class="col-12 d-flex flex-column gap-4">
+
+<!-- FICO SCORE CARD  -->
+<div class="card p-3 shadow-sm">
+
+    <!-- Current score + category variables-->
+        <span id="scoreValue"></span> • <span id="scoreLabel"></span>
+</p>
+
+    <!-- score labels above the bar -->
+    <div class="fico-labels">
+        <span class="label-380">380</span>
+        <span class="label-580">580</span>
+        <span class="label-670">670</span>
+        <span class="label-740">740</span>
+        <span class="label-800">800</span>
+        <span class="label-850">850</span>
+    </div>
+
+    <!-- actual score bar -->
+    <div class="fico-bar position-relative mb-2">
+        <div class="fico-marker" style="left: 82%;"></div>
+    </div>
+
+</div> <!-- closes FICO score card -->
+
+<!-- Other stacked mobile cards -->
+<div class="card p-3 shadow-sm">Credit Usage
+
+ 
+    <div class="card-body">
+
+        <p class="card-text">Show numbers that go into credit score formula and explain what they mean and how they likely came about </p>
+    </div>
+</div>
+
+
+<div class="card p-3 shadow-sm">
+    <h6 class="mb-3">Payment History</h6>
+
+    <div class="card mb-2">
+        <div class="card-body py-2">
+            Rent Payments
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body py-2">
+            Credit Card Payments
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</div>
+ <nav class="navbar fixed-bottom navbar-light bg-light d-lg-none">
+        <div class="container-fluid justify-content-around text-center">
+
+        <a class="navbar-text text-center" href="index.html">
+            <small>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                </svg>
+            </small>
+        </a>
+
+        <a class="navbar-text text-center" href="Finances.html">
+            
+            <small>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5zm13-3H1v2h14zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </small>
+        </a>
+
+        <a class="navbar-text text-center" href="account-info.html">
+            
+            <small>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
+                <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"/>
+                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
+                </svg>
+            </small>
+        </a>
+
+        </div>
+    </nav>
+</body>
+</html>
+
+<style>
+/* ================= FICO SCORE RANGE BAR ================= */
+/*the fico bar itself*/
+.fico-bar {
+    height: 25px;
+    border-radius: 12px;
+    overflow: visible;
+    position: relative;
+    opacity: 0.8;
+/*background colors and the % being connected to the number*/
+
+    background: linear-gradient(
+        to right,
+        rgb(233, 0, 0) 0% 35%,
+        yellow 35% 50%,
+        green 50% 65%,
+        blue 65% 82%,
+        purple 82% 100%
+    );
+}
+
+/* Vertical line marker showing exact score */
+.fico-marker {
+    position: absolute;
+    opacity: 1;
+    top: -5px;
+    height: 36px;
+    width: 3px;
+    background: rgb(241, 241, 241);
+    border: .5px solid rgb(70, 53, 53);
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+
+.fico-labels {
+    position: relative;
+    height: 16px;
+    margin-bottom: 2px; /* close to the bar */
+    font-size: 11px;
+    color: gray;
+}
+/* keeps it lined up perfectly with the bar*/
+.fico-labels span {
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/* exact FICO range breakpoints 
+    needed because justify-gap isn't good enoguh
+*/
+.label-380 { left: 2%; transform: none; }
+.label-580 { left: 35%; }
+.label-670 { left: 50%; }
+.label-740 { left: 65%; }
+.label-800 { left: 82%; }
+.label-850 { left: 100%; transform: translateX(-100%); }
+</style>
